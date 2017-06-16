@@ -1,0 +1,22 @@
+$color-primary:#ddd;
+$color-secondary:rgb(255,0,0);
+@mixin title {
+    font-weight:bold;
+    color:blue;
+    border-bottom:solid 1px blue;
+}
+body {
+    background: lighten($color-secondary, 33%);
+    @include title;
+    header {
+        p {
+            color:red;
+            &:hover {
+                color:blue;
+            }
+        }
+    }
+}
+@import "reset";
+@import "fonts";
+@import "header";

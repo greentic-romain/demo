@@ -1,0 +1,25 @@
+{
+  "name": "aniwaa",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Romain Rytter <romain@greentic.net>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "latest"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
